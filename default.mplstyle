@@ -1,37 +1,40 @@
+# Based off pitayasmoothie-light: 
+# https://raw.githubusercontent.com/dhaitz/matplotlib-stylesheets/master/pitayasmoothie-light.mplstyle
+
 # Seaborn common parameters
 # .15 = dark_gray
 # .8 = light_gray
-legend.frameon: False
+text.color: 0
+axes.labelcolor: 0
+legend.frameon: True
 legend.numpoints: 1
 legend.scatterpoints: 1
-xtick.direction: out
-ytick.direction: out
+xtick.direction: in
+ytick.direction: in
+xtick.color: .15
+ytick.color: .15
 axes.axisbelow: True
-mathtext.fontset : 'cm'
-font.family : 'STIXGeneral'
+mathtext.fontset: cm
+font.family: STIXGeneral
 grid.linestyle: -
 lines.solid_capstyle: round
 
 # Seaborn darkgrid parameters
-# axes.grid: True
-# axes.edgecolor: white
-# axes.linewidth: 0
-# xtick.major.size: 0
-# ytick.major.size: 0
-# xtick.minor.size: 0
-# ytick.minor.size: 0
-
-# from mplcyberpunk
-text.color: 0.9
-axes.labelcolor: 0.9
-xtick.color: 0.9
-ytick.color: 0.9
-grid.color: 2A3459
+axes.grid: True
+axes.facecolor: white
+axes.edgecolor: black
+axes.linewidth: 1
+axes.spines.right: False
+axes.spines.top: False
+grid.color: 1
+xtick.major.size: 4
+ytick.major.size: 4
+xtick.minor.size: 2
+ytick.minor.size: 2
 
 # Custom
-# font.sans-serif: Overpass, Helvetica, Helvetica Neue, Arial, Liberation Sans, DejaVu Sans, Bitstream Vera Sans, sans-serif
-axes.prop_cycle: cycler('color', ['18c0c4', 'f62196', 'A267F5', 'f3907e', 'ffe46b', 'fefeff'])
+font.sans-serif: Overpass, Helvetica, Helvetica Neue, Arial, Liberation Sans, DejaVu Sans, Bitstream Vera Sans, sans-serif
+axes.prop_cycle: cycler('color', ['7A76C2', 'ff6e9c98', 'f62196', '18c0c4', 'f3907e', '66E9EC'])
 image.cmap: RdPu
-# figure.facecolor: 212946
-axes.facecolor: 212946
-savefig.facecolor: 212946
+figure.facecolor: fefeff
+savefig.facecolor: fefeff
