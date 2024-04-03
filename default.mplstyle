@@ -26,7 +26,7 @@ axes.edgecolor: black
 axes.linewidth: 1
 axes.spines.right: False
 axes.spines.top: False
-grid.color: 1
+grid.color: 0.5
 xtick.major.size: 4
 ytick.major.size: 4
 xtick.minor.size: 2
